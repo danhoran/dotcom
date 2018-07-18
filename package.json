@@ -1,0 +1,23 @@
+{
+  "name": "@danhoran/dotcom",
+  "version": "0.0.1",
+  "description": "Personal site",
+  "repository": "git@github.com:danhoran/dotcom.git",
+  "author": {
+    "name": "Dan Horan",
+    "email": "dan@danielhoran.com"
+  },
+  "engines": {
+    "node": "8.11.3"
+  },
+  "scripts": {
+    "build": "next build",
+    "dev": "next",
+    "start": "next start"
+  },
+  "dependencies": {
+    "next": "^6.1.1",
+    "react": "^16.4.1",
+    "react-dom": "^16.4.1"
+  }
+}
