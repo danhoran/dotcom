@@ -2,10 +2,10 @@ import Heading from '../components/heading';
 import Layout from '../components/layout';
 import Lead from '../components/lead';
 
-const Index = () => (
+const Projects = () => (
     <Layout>
         <Lead>
-            Hey, I'm Dan Horan &mdash; a leader, and developer currently living in London, England. I used to write code for a living, now I lead software engineering teams at Ocado Technology &mdash; building amazing things for people all over the world.
+            Sometimes I work on exciting stuff.
         </Lead>
         <Heading>Fun projects</Heading>
         <br />
@@ -38,4 +38,4 @@ const Index = () => (
     </Layout>
 );
 
-export default Index;
+export default Projects;

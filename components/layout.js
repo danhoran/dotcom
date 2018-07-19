@@ -1,5 +1,8 @@
 import Head from 'next/head';
 
+import Card from './card';
+import Navigation from './navigation';
+
 const Layout = ({ children, title = 'Daniel Horan' }) => (
     <div>
         <Head>
@@ -8,7 +11,11 @@ const Layout = ({ children, title = 'Daniel Horan' }) => (
             <meta name='viewport' content='initial-scale=1.0, width=device-width' />
             <link href="https://fonts.googleapis.com/css?family=Inconsolata:400,700" rel="stylesheet" />
         </Head>
-        { children }
+        <Card>
+            <Navigation />
+            { children }
+        </Card>
+
         <style normalize jsx global>{`
             html {
                 line-height: 1.15;

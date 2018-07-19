@@ -1,6 +1,7 @@
 const Card = ({ children }) => (
     <div className="card">
         <div className="content">{ children }</div>
+
         <style jsx>{`
             .card {
                 background-color: #fff;

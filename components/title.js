@@ -1,6 +1,7 @@
 const Title = ({ children }) => (
     <div>
         <h1>{ children }</h1>
+
         <style jsx>{`
             h1 {
                 font-weight: 400;

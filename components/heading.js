@@ -1,6 +1,7 @@
 const Heading = ({ children }) => (
     <h2>
         { children }
+
         <style jsx>{`
             h2 {
                 display: inline-block;
@@ -12,7 +13,9 @@ const Heading = ({ children }) => (
             }
 
             h2::after {
-                background-color: #fc746c;
+                background: #2C3E50;
+                background: -webkit-linear-gradient(to right, #FD746C, #ffa39e);
+                background: linear-gradient(to bottom, #FD746C, #ffa39e);
                 bottom: 2px;
                 content: '';
                 display: block;

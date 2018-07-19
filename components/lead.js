@@ -1,6 +1,7 @@
-const Text = ({ children }) => (
+const Lead = ({ children }) => (
     <p>
         { children }
+
         <style jsx>{`
             p {
                 font-size: 1.25rem;
@@ -12,4 +13,4 @@ const Text = ({ children }) => (
     </p>
 );
 
-export default Text;
+export default Lead;
